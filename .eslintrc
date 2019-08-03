@@ -1,0 +1,10 @@
+{
+  "extends": "airbnb-base",
+  "rules": {
+    "global-require": "off",
+    "prefer-destructuring": "warn",
+    "no-restricted-syntax": "off",
+    "no-await-in-loop": "off",
+    "no-underscore-dangle": "off",
+  }
+}

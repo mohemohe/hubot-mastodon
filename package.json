@@ -1,0 +1,26 @@
+{
+  "name": "hubot-mastodon",
+  "version": "1.0.0",
+  "description": "mastodon hubot adapter",
+  "main": "src/mastodon.js",
+  "repository": "git@github.com:mohemohe/hubot-mastodon.git",
+  "author": "mohemohe",
+  "license": "WTFPL",
+  "dependencies": {
+    "@types/hubot": "^2.19.5",
+    "megalodon": "^0.8.2",
+    "parent-require": "^1.0.0",
+    "striptags": "^3.1.1"
+  },
+  "peerDependencies": {
+    "hubot": "^2.19.0||>=3.3.2"
+  },
+  "devDependencies": {
+    "eslint": "^6.1.0",
+    "eslint-config-airbnb": "^17.1.1",
+    "eslint-config-airbnb-base": "^13.2.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-prettier": "^3.1.0",
+    "prettier": "^1.18.2"
+  }
+}
